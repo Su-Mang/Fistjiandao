@@ -1,0 +1,24 @@
+//
+//  person.h
+//  剪刀石头布
+//
+//  Created by 岳靖翔 on 2019/6/1.
+//  Copyright © 2019 岳靖翔. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "Fisttype.h"
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Person : NSObject
+{
+    @public
+    NSString * _name;
+    int  _score;
+    int  _seletedType;
+}
+- (void) showFist ;
+- (NSString *) fistTypewithNumber : (int ) numner;
+@end
+
+NS_ASSUME_NONNULL_END
